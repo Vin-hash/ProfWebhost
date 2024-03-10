@@ -1,0 +1,117 @@
+/* Add a link to Bootstrap CSS in your HTML file before this stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; /* Added padding to the body for overall spacing */
+    background-color: #f5f5f5;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Padding around the nav elements */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #000;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navItems li a {
+    font-size: 25px;
+    color: #ADD8E6;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+.links a:hover {
+    color: #800080;
+}
+
+
+.logo {
+    font-size: 3em;
+    font-weight: 900;
+    
+    color: #333;
+}
+.logo b {
+    color: #800080; /* Violet color for the dot */
+}
+
+
+
+.navItems {
+    list-style-type: none;
+    display: flex;
+}
+
+.navItems li {
+    margin-right: 15px;
+}
+
+.navItems a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navItems a:hover {
+    color: #800080;
+}
+
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin: 0;
+    justify-content: center;
+    margin-top: 20px;
+}
+.centered {
+    text-align: center;
+}
+

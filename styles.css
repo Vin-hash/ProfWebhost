@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* General Styles */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; /* Added padding to the body for overall spacing */
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Ensures content inside the container has spacing */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Padding around the nav elements */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: 900;
+    
+    color: #333;
+}
+.logo b {
+    color: #800080; /* Violet color for the dot */
+}
+
+.navItems {
+    list-style: none;
+    display: flex;
+}
+
+.navItems li {
+    margin-left: 20px;
+}
+
+
+
+.navItems a:hover {
+    color: #800080;
+}
+
+/* Social Links */
+.links {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0; /* Added vertical padding to the links container */
+}
+
+.links a {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #800080;
+}
+
+/* Contact Information */
+
+h2 {
+    background-color: powderblue;
+    padding: 10px; /* Padding inside the h2 elements */
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    display: flex; /* Center contents */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.centered {
+    text-align: center;
+}
+
+
+
+p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Additional Minimalist Touches */
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #ADD8E6;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a,
+.links a:hover {
+    color: #800080;
+}
+
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+/* Minimalist design */
+/* Minimalist design */
+/* Minimalist design */
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.cols {
+    width: 50%; /* Corrected width value */
+}
+
+.topline {
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #3d535f;
+    animation: slideInFromTop 1s ease-in-out; /* Animation for topline */
+}
+
+.topline::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: #800080;
+    transition: width 0.3s ease; /* Transition effect for width */
+}
+
+h1 {
+    display: block;
+    font-size: 7em;
+    font-weight: 900;
+    color: #ADD8E6;
+    animation: slideInFromLeft 1s ease-in-out; /* Animation for h1 */
+}
+
+.multiText {
+    color: #3d535f;
+    text-transform: capitalize;
+}
+
+p {
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    color: #3d535f;
+    animation: fadeIn 1s ease-in-out; /* Animation for p */
+}
+
+/* Animation effects */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.btns {
+    width: 100%;
+    position: relative;
+    left: 150px;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #f3f5f8;
+    background-color: #3d535f;
+    padding: 5px 14px;
+    margin: 40px 5px;
+    letter-spacing: capitalize;
+    box-shadow: 0 15px 10px rgb(0, 0, 0, 0.4);
+}
+
+button:hover {
+    background-color: #800080;
+}
+
+.imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imgbox img {
+  float: right;
+  top: -10px;
+}
+
+
+
+
+.imgbox #splach {
+    position: relative;
+}
